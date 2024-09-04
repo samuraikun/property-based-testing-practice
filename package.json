@@ -1,0 +1,19 @@
+{
+  "name": "property-based-testing-practice",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:watch": "vitest --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "fast-check": "^3.22.0",
+    "vitest": "^2.0.5"
+  }
+}
